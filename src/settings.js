@@ -1,6 +1,6 @@
 module.exports = {
 
-    title: 'GMeter',
+    title: 'GMeter性能测试',
 
     /**
      * @type {boolean} true | false
