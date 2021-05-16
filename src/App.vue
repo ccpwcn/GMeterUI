@@ -1,12 +1,20 @@
 <template>
   <div id="app">
-    <div id="nav">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
-    </div>
-    <router-view/>
+    <home/>
   </div>
 </template>
+
+<script>
+// @ is an alias to /src
+import Home from "@/views/Home"
+
+export default {
+  name: 'App',
+  components: {
+    Home
+  }
+}
+</script>
 
 <style lang="scss">
 #app {
